@@ -1,0 +1,71 @@
+
+
+#lightBoxContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.54);
+  display: none;
+}
+
+/* #boxItem {
+  width: 50%;
+  height: 500px;
+  background-image: url(../images/project-1.jpg);
+  background-size: cover;
+} */
+
+  #lightBoxContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+/*
+#containerBox {
+  width: 50%;
+  height: 500px;
+  background-image: url(../images/project-1.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+} */
+#containerBox {
+  width: 100%;
+  max-width: 1000px;
+  height: 80vh;
+  background-image: url(../images/project-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+i {
+  font-size: 30px;
+}
+#close {
+  position: absolute;
+  top: 10px;
+  right: 80px;
+}
+#prevBtn {
+  position: absolute;
+  left: 70px;
+}
+
+#nextBtn {
+  position: absolute;
+  right: 70px;
+}
